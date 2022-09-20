@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import IncreaseDecrease from './component/increase-decrease/IncreaseDecrease';
+import Users from './component/users/Users';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Facebook Users</h1>
+      <IncreaseDecrease></IncreaseDecrease>
+      <Users></Users>
     </div>
   );
 }
